@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mobileproj</string>
+    <string-array name="roles">
+        <item>admin</item>
+        <item>user</item>
+    </string-array>
+</resources>

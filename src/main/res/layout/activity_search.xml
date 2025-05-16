@@ -1,0 +1,76 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/matricule" >
+
+            <!-- First Part (3 digits) -->
+            <EditText
+                android:id="@+id/part11_input"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:inputType="number"
+                android:maxLength="3"
+                android:background="@android:color/transparent"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <!-- Second Part (4 digits) -->
+            <EditText
+                android:id="@+id/part22_input"
+                android:layout_width="72dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="199dp"
+
+                android:layout_toRightOf="@id/part11_input"
+                android:background="@android:color/transparent"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"/>
+
+        <ImageView
+            android:id="@+id/result_image"
+            android:layout_width="272dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/result_numserie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/result_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/result_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+        <ListView
+            android:id="@+id/infractions_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
