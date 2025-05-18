@@ -2,6 +2,8 @@ package com.example.mobileproj;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +17,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.security.MessageDigest;
 import java.util.HashMap;
@@ -36,35 +39,28 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void addAdminIfNotExists() {
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference usersRef = database.getReference("users");
+        FirebaseFirestore firestore = FirebaseFirestore.getInstance();
+        String adminUsername = "admin";
+        String adminPassword = hashPassword("admin123"); // Reuse your hash method
 
-        usersRef.orderByChild("username").equalTo("admin").addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot snapshot) {
-                if (!snapshot.exists()) {
-                    // Admin doesn't exist — create it
-                    String hashedPassword = hashPassword("admin123");
-                    String userId = usersRef.push().getKey();
+        firestore.collection("users")
+                .whereEqualTo("username", adminUsername)
+                .get()
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful() && task.getResult().isEmpty()) {
+                        Map<String, Object> admin = new HashMap<>();
+                        admin.put("username", adminUsername);
+                        admin.put("password", adminPassword);
+                        admin.put("role", "admin");
 
-                    Map<String, Object> adminData = new HashMap<>();
-                    adminData.put("username", "admin");
-                    adminData.put("password", hashedPassword);
-                    adminData.put("role", "admin");
-
-                    if (userId != null) {
-                        usersRef.child(userId).setValue(adminData);
+                        firestore.collection("users")
+                                .document(adminUsername)
+                                .set(admin)
+                                .addOnSuccessListener(v -> Log.d("MainActivity", "Admin created"))
+                                .addOnFailureListener(e -> Log.e("MainActivity", "Failed to create admin", e));
                     }
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                Log.e("Firebase", "Error checking admin user", error.toException());
-            }
-        });
+                });
     }
-
     private String hashPassword(String password) {
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");

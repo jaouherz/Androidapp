@@ -3048,8 +3048,10 @@ int drawable design_ic_visibility 0x7f080096
 int drawable design_ic_visibility_off 0x7f080097
 int drawable design_password_eye 0x7f080098
 int drawable design_snackbar_background 0x7f080099
+int drawable edittext_background 0x7f0800fd
 int drawable googleg_disabled_color_18 0x7f08009a
 int drawable googleg_standard_color_18 0x7f08009b
+int drawable ic_add_user 0x7f0800fe
 int drawable ic_arrow_back_black_24 0x7f08009c
 int drawable ic_call_answer 0x7f08009d
 int drawable ic_call_answer_low 0x7f08009e
@@ -3057,11 +3059,13 @@ int drawable ic_call_answer_video 0x7f08009f
 int drawable ic_call_answer_video_low 0x7f0800a0
 int drawable ic_call_decline 0x7f0800a1
 int drawable ic_call_decline_low 0x7f0800a2
+int drawable ic_camera 0x7f0800ff
 int drawable ic_clear_black_24 0x7f0800a3
 int drawable ic_clock_black_24dp 0x7f0800a4
 int drawable ic_keyboard_black_24dp 0x7f0800a5
 int drawable ic_launcher_background 0x7f0800a6
 int drawable ic_launcher_foreground 0x7f0800a7
+int drawable ic_lock 0x7f080100
 int drawable ic_m3_chip_check 0x7f0800a8
 int drawable ic_m3_chip_checked_circle 0x7f0800a9
 int drawable ic_m3_chip_close 0x7f0800aa
@@ -3069,8 +3073,12 @@ int drawable ic_mtrl_checked_circle 0x7f0800ab
 int drawable ic_mtrl_chip_checked_black 0x7f0800ac
 int drawable ic_mtrl_chip_checked_circle 0x7f0800ad
 int drawable ic_mtrl_chip_close_circle 0x7f0800ae
+int drawable ic_person 0x7f080101
+int drawable ic_role 0x7f080102
+int drawable ic_save 0x7f080103
 int drawable ic_search_black_24 0x7f0800af
 int drawable indeterminate_static 0x7f0800b0
+int drawable logo 0x7f080104
 int drawable m3_avd_hide_password 0x7f0800b1
 int drawable m3_avd_show_password 0x7f0800b2
 int drawable m3_bottom_sheet_drag_handle 0x7f0800b3
@@ -3093,6 +3101,7 @@ int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f0800c3
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f0800c4
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f0800c5
 int drawable matricule 0x7f0800c6
+int drawable matricule_modern 0x7f080105
 int drawable mtrl_bottomsheet_drag_handle 0x7f0800c7
 int drawable mtrl_checkbox_button 0x7f0800c8
 int drawable mtrl_checkbox_button_checked_unchecked 0x7f0800c9
@@ -3518,6 +3527,7 @@ int id part1_input 0x7f09016f
 int id part22_input 0x7f090170
 int id part2_input 0x7f090171
 int id password 0x7f090172
+int id password_container 0x7f09021a
 int id password_input 0x7f090173
 int id password_toggle 0x7f090174
 int id path 0x7f090175
@@ -3663,6 +3673,7 @@ int id unlabeled 0x7f090200
 int id up 0x7f090201
 int id useLogo 0x7f090202
 int id username 0x7f090203
+int id username_container 0x7f09021b
 int id username_input 0x7f090204
 int id users_list 0x7f090205
 int id vertical 0x7f090206

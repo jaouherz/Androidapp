@@ -86,7 +86,7 @@ public class AdminActivity extends AppCompatActivity {
 
         Map<String, Object> user = new HashMap<>();
         user.put("username", username);
-        user.put("password", password);
+        user.put("password", hashPassword(password));
         user.put("role", role);
 
         firestore.collection("users").document(username)

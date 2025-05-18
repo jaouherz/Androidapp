@@ -1,94 +1,134 @@
 [
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/drawable_matricule.png.flat",
-        "source": "com.example.mobileproj.app-main-37:/drawable/matricule.png"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\layout_activity_user.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\layout\\activity_user.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/xml_backup_rules.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/layout_activity_admin.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/layout/activity_admin.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\layout\\activity_search.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_camera.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_add_user.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_add_user.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_role.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_role.xml"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\edittext_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\layout\\activity_main.xml"
     },
     {
         "merged": "com.example.mobileproj.app-debug-35:/layout_activity_login.xml.flat",
         "source": "com.example.mobileproj.app-main-37:/layout/activity_login.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\layout_infraction_item.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\layout\\infraction_item.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/layout_infraction_item.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/layout/infraction_item.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_matricule.png.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\matricule.png"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/layout_activity_search.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/layout/activity_search.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\layout\\activity_admin.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/layout_activity_main.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mobileproj.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_matricule_modern.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\matricule_modern.xml"
     },
     {
-        "merged": "com.example.mobileproj.app-debug-35:/layout_activity_user.xml.flat",
-        "source": "com.example.mobileproj.app-main-37:/layout/activity_user.xml"
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-debug-35:\\drawable_ic_save.xml.flat",
+        "source": "C:\\Users\\modat\\.gradle\\daemon\\8.10.2\\com.example.mobileproj.app-main-37:\\drawable\\ic_save.xml"
     }
 ]

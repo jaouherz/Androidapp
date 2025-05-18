@@ -3,9 +3,18 @@ local
 array roles
 color black
 color white
+drawable edittext_background
+drawable ic_add_user
+drawable ic_camera
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_lock
+drawable ic_person
+drawable ic_role
+drawable ic_save
+drawable logo
 drawable matricule
+drawable matricule_modern
 id add_user_button
 id btn_search
 id capture_button
@@ -23,6 +32,7 @@ id part1_input
 id part22_input
 id part2_input
 id password
+id password_container
 id password_input
 id result_date
 id result_image
@@ -32,6 +42,7 @@ id role_spinner
 id search_button
 id submit_button
 id username
+id username_container
 id username_input
 id users_list
 layout activity_admin

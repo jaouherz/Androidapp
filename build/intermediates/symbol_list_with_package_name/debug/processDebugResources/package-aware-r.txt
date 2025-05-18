@@ -3049,8 +3049,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edittext_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add_user
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3058,11 +3060,13 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_camera
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_lock
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3070,8 +3074,12 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_person
+drawable ic_role
+drawable ic_save
 drawable ic_search_black_24
 drawable indeterminate_static
+drawable logo
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3094,6 +3102,7 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable matricule
+drawable matricule_modern
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3519,6 +3528,7 @@ id part1_input
 id part22_input
 id part2_input
 id password
+id password_container
 id password_input
 id password_toggle
 id path
@@ -3664,6 +3674,7 @@ id unlabeled
 id up
 id useLogo
 id username
+id username_container
 id username_input
 id users_list
 id vertical
